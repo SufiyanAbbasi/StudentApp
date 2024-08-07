@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\programentoraspdotnetcore.csproj": {}
+    "E:\\BeeTechnica Internships\\FullStack-net&angular\\StudentApp\\StudentApi\\programentoraspdotnetcore.csproj": {}
   },
   "projects": {
-    "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\programentoraspdotnetcore.csproj": {
+    "E:\\BeeTechnica Internships\\FullStack-net&angular\\StudentApp\\StudentApi\\programentoraspdotnetcore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\programentoraspdotnetcore.csproj",
+        "projectUniqueName": "E:\\BeeTechnica Internships\\FullStack-net&angular\\StudentApp\\StudentApi\\programentoraspdotnetcore.csproj",
         "projectName": "programentoraspdotnetcore",
-        "projectPath": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\programentoraspdotnetcore.csproj",
+        "projectPath": "E:\\BeeTechnica Internships\\FullStack-net&angular\\StudentApp\\StudentApi\\programentoraspdotnetcore.csproj",
         "packagesPath": "C:\\Users\\Laptop House\\.nuget\\packages\\",
-        "outputPath": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\obj\\",
+        "outputPath": "E:\\BeeTechnica Internships\\FullStack-net&angular\\StudentApp\\StudentApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Laptop House\\AppData\\Roaming\\NuGet\\NuGet.Config",

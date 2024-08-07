@@ -15,6 +15,13 @@ builder.Services.AddDbContext<StudentDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("StudentAppDBConnection"));
 });
 
+//cors
+builder.Services.AddCors(o => {
+    o.AddPolicy("myCorsPolicy", policy =>
+    {
+        policy.WithOrigins("https://localhost:4200").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    });
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,6 +32,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("myCorsPolicy");
 
 app.UseAuthorization();
 

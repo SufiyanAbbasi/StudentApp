@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\",
+  "WorkspaceRootPath": "E:\\BeeTechnica Internships\\FullStack-net\u0026angular\\StudentApp\\StudentApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|e:\\beetechnica internships\\web api\\programentoraspdotnetcore\\models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|solutionrelative:models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|e:\\beetechnica internships\\web api\\programentoraspdotnetcore\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|e:\\beetechnica internships\\fullstack-net\u0026angular\\studentapp\\studentapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|e:\\beetechnica internships\\web api\\programentoraspdotnetcore\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|e:\\beetechnica internships\\fullstack-net\u0026angular\\studentapp\\studentapi\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|solutionrelative:models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|e:\\beetechnica internships\\fullstack-net\u0026angular\\studentapp\\studentapi\\models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|solutionrelative:models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|e:\\beetechnica internships\\fullstack-net\u0026angular\\studentapp\\studentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F34C728-3D32-44F6-B958-2CAB88BB0796}|programentoraspdotnetcore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,11 +42,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\BeeTechnica Internships\\FullStack-net\u0026angular\\StudentApp\\StudentApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\BeeTechnica Internships\\FullStack-net\u0026angular\\StudentApp\\StudentApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T09:56:33.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentDBContext.cs",
-              "DocumentMoniker": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\Models\\StudentDBContext.cs",
+              "DocumentMoniker": "E:\\BeeTechnica Internships\\FullStack-net\u0026angular\\StudentApp\\StudentApi\\Models\\StudentDBContext.cs",
               "RelativeDocumentMoniker": "Models\\StudentDBContext.cs",
-              "ToolTip": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\Models\\StudentDBContext.cs",
+              "ToolTip": "E:\\BeeTechnica Internships\\FullStack-net\u0026angular\\StudentApp\\StudentApi\\Models\\StudentDBContext.cs",
               "RelativeToolTip": "Models\\StudentDBContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,11 +68,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Students.cs",
-              "DocumentMoniker": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\Models\\Students.cs",
+              "DocumentMoniker": "E:\\BeeTechnica Internships\\FullStack-net\u0026angular\\StudentApp\\StudentApi\\Models\\Students.cs",
               "RelativeDocumentMoniker": "Models\\Students.cs",
-              "ToolTip": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\Models\\Students.cs",
+              "ToolTip": "E:\\BeeTechnica Internships\\FullStack-net\u0026angular\\StudentApp\\StudentApi\\Models\\Students.cs",
               "RelativeToolTip": "Models\\Students.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,13 +81,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentsController.cs",
-              "DocumentMoniker": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\Controllers\\StudentsController.cs",
+              "DocumentMoniker": "E:\\BeeTechnica Internships\\FullStack-net\u0026angular\\StudentApp\\StudentApi\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\Controllers\\StudentsController.cs",
+              "ToolTip": "E:\\BeeTechnica Internships\\FullStack-net\u0026angular\\StudentApp\\StudentApi\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEgAAAAcAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEQAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T11:49:23.776Z",
               "EditorCaption": ""

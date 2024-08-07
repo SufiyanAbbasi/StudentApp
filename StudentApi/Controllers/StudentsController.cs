@@ -60,21 +60,38 @@ namespace programentoraspdotnetcore.Controllers
             return Ok(std); 
         }
 
-        [HttpDelete("{id}")]
-        public async Task<ActionResult<Students>> DeleteStudent( int id)
-        {
-            var std = await context.Students.FindAsync();
+        //[HttpDelete("{id}")]
+        //public async Task<ActionResult<Students>> DeleteStudent( int id)
+        //{
+        //    var std = await context.Students.FindAsync();
 
-            if(std == null)
+        //    if(std == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    context.Students.Remove(std);
+
+        //    await context.SaveChangesAsync();
+        //    return Ok(std);
+        //}
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Students>> DeleteStudent(int id)
+        {
+            var std = await context.Students.FindAsync(id);
+
+            if (std == null)
             {
                 return NotFound();
             }
 
             context.Students.Remove(std);
-
             await context.SaveChangesAsync();
+
             return Ok(std);
         }
+
 
     }
 }

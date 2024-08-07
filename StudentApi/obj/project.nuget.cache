@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "25wJs1jY8sAbXK1QpxmXDdfcyHau9Vqzp1WIf9C/X6yzBbpI2J/ojFtf0kzsnMSFNWX2wjHgYnN7T9e/fy75tA==",
+  "dgSpecHash": "AdMvc+nxYASSZ2rnm6b8bacBRROy/iePyHPmYitvI+YnRvH8EEQD7t+PZUw8U9JT4FZSKY1fIqsnHSRwSKLuSw==",
   "success": true,
-  "projectFilePath": "E:\\BeeTechnica Internships\\Web Api\\programentoraspdotnetcore\\programentoraspdotnetcore.csproj",
+  "projectFilePath": "E:\\BeeTechnica Internships\\FullStack-net&angular\\StudentApp\\StudentApi\\programentoraspdotnetcore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Laptop House\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Laptop House\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

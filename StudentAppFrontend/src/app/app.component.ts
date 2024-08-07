@@ -1,14 +1,81 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { ApiService } from './services/api.service';
+import { Students } from './models/students';
+import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [CommonModule, RouterOutlet, FormsModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'StudentAppFrontend';
+  isEditing: boolean = false;
+
+  students: Students[] = [];
+
+  student: Students = {
+    id: 0,
+    studentName: '',
+    fatherName: '',
+    age: '',
+    studentGender: "",
+    standard: '',
+  }
+  constructor(private apiSrv: ApiService) { }
+
+  ngOnInit(): void {
+    this.allStudents();
+
+  }
+
+  allStudents() {
+    this.apiSrv.getAllStudents().subscribe((data) => {
+      this.students = data;
+    })
+  }
+
+  edit(stud: Students): void {
+    this.student = { ...stud };
+    this.isEditing = true;
+  }
+
+  delete(id: number): void {
+    if (confirm('Are You Sure YOu want to delete?')) {
+      this.apiSrv.deleteStudent(id).subscribe(() => {
+        this.allStudents();
+      });
+    }
+  }
+
+  addStudent(): void {
+    if (this.isEditing) {
+      this.apiSrv.updateStudent(this.student.id, this.student).subscribe(() => {
+        this.allStudents(); // Refresh the list after update
+        this.reset(); // Reset the form
+      });
+    } else {
+      this.apiSrv.createStudent(this.student).subscribe(() => {
+        this.allStudents();; // Refresh the list after creation
+        this.reset(); // Reset the form
+      });
+    }
+  }
+  reset(): void {
+    this.student = {
+      id: 0,
+      studentName: '',
+      fatherName: '',
+      age: '',
+      studentGender: '',
+      standard: ''
+    };
+    this.isEditing = false;
+  }
+
 }
