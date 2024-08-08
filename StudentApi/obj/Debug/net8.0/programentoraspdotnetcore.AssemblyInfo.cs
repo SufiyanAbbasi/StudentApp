@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("programentoraspdotnetcore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e39ab63dea6939557295e7dd1dfc4f2ca1976148")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bcc27f328f9efaa40714c8716cd626712afba2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("programentoraspdotnetcore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("programentoraspdotnetcore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

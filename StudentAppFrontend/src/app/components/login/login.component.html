@@ -1,0 +1,12 @@
+<div class="box">
+    <div class="containernew">
+        <div class="card">
+            <h2>Login</h2>
+            <form>
+                <input type="text" id="username" name="username" [(ngModel)]="userObj.username" placeholder="Username" >
+                <input type="password" id="password" name="password" [(ngModel)]="userObj.password"  placeholder="Password" >
+                <button type="submit" (click)="login()">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
